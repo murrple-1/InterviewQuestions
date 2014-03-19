@@ -1,5 +1,5 @@
 Lisp-esque Parser
-#################
+=================
 
 This parser will read in strings of Polish notation equations
 (http://en.wikipedia.org/wiki/Polish_notation), and output the
