@@ -1,7 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace ReverseAStringTests
+using Roadrunner.Interview.ReverseAString;
+
+namespace Roadrunner.Interview.ReverseAString.Test
 {
     [TestClass]
     public class UnitTests
@@ -16,7 +18,7 @@ namespace ReverseAStringTests
             Array.Copy(input, expected, input.Length);
             Array.Reverse(expected);
 
-            char[] retVal = Roadrunner.Interview.ReverseAString.Reverse(input);
+            char[] retVal = ReverseAString.Reverse(input);
             for (int i = 0; i < expected.Length; i++)
             {
                 Assert.AreEqual(expected[i], retVal[i]);
@@ -31,7 +33,7 @@ namespace ReverseAStringTests
             Array.Copy(input, expected, input.Length);
             Array.Reverse(expected);
 
-            char[] retVal = Roadrunner.Interview.ReverseAString.ReverseRecursive(input);
+            char[] retVal = ReverseAString.ReverseRecursive(input);
             for (int i = 0; i < expected.Length; i++)
             {
                 Assert.AreEqual(expected[i], retVal[i]);

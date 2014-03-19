@@ -5,6 +5,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAString", "ReverseAS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseAStringTests", "ReverseAStringTests\ReverseAStringTests.csproj", "{FD894D5A-8546-4172-9F89-1F194BA9B9B0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lisp-esqueParser", "Lisp-esqueParser\Lisp-esqueParser.csproj", "{5855943A-DA4B-4197-895E-F63AF801B449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lisp-esqueParserTests", "Lisp-esqueParserTests\Lisp-esqueParserTests.csproj", "{FB439CBF-DB89-4344-A731-5C17890F676B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkylineTests", "SkylineTests\SkylineTests.csproj", "{AF31C50C-3F8D-466D-8BD2-92C8F1B2426E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline", "Skyline\Skyline.csproj", "{258D1BAB-788C-426C-85BB-2ED968F5E683}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +27,22 @@ Global
 		{FD894D5A-8546-4172-9F89-1F194BA9B9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD894D5A-8546-4172-9F89-1F194BA9B9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD894D5A-8546-4172-9F89-1F194BA9B9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5855943A-DA4B-4197-895E-F63AF801B449}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5855943A-DA4B-4197-895E-F63AF801B449}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5855943A-DA4B-4197-895E-F63AF801B449}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5855943A-DA4B-4197-895E-F63AF801B449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB439CBF-DB89-4344-A731-5C17890F676B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB439CBF-DB89-4344-A731-5C17890F676B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB439CBF-DB89-4344-A731-5C17890F676B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB439CBF-DB89-4344-A731-5C17890F676B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF31C50C-3F8D-466D-8BD2-92C8F1B2426E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF31C50C-3F8D-466D-8BD2-92C8F1B2426E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF31C50C-3F8D-466D-8BD2-92C8F1B2426E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF31C50C-3F8D-466D-8BD2-92C8F1B2426E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
