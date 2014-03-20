@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkylineTests", "SkylineTest
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skyline", "Skyline\Skyline.csproj", "{258D1BAB-788C-426C-85BB-2ED968F5E683}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianFinder", "MedianFinder\MedianFinder.csproj", "{5F8183E7-DBF5-4910-AA18-ED0795BF90AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedianFinderTests", "MedianFinderTests\MedianFinderTests.csproj", "{A11C8625-FC00-4F36-9056-E5731E9CC356}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,14 @@ Global
 		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{258D1BAB-788C-426C-85BB-2ED968F5E683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8183E7-DBF5-4910-AA18-ED0795BF90AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8183E7-DBF5-4910-AA18-ED0795BF90AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8183E7-DBF5-4910-AA18-ED0795BF90AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8183E7-DBF5-4910-AA18-ED0795BF90AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A11C8625-FC00-4F36-9056-E5731E9CC356}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A11C8625-FC00-4F36-9056-E5731E9CC356}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A11C8625-FC00-4F36-9056-E5731E9CC356}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A11C8625-FC00-4F36-9056-E5731E9CC356}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
